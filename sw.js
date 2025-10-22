@@ -1,12 +1,12 @@
 const CACHE_NAME = 'temperature-converter-v1';
 const FILES_TO_CACHE = [
-  '/',
-  '/index.html',
-  '/converter.js',
-  '/converter.css',
-  '/manifest.json',
-  '/icon192.png',
-  '/icon512.png'
+  './',
+  './index.html',
+  './converter.js',
+  './converter.css',
+  './manifest.json',
+  './icon192.png',
+  './icon512.png'
 ];
 
 self.addEventListener('install', event => {
