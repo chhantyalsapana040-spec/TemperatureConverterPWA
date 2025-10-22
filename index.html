@@ -29,4 +29,9 @@ unit">68 F</output>
 </form>
 <script src="converter.js"></script>
 </body>
+<script>
+if('serviceWorker' in navigator) {
+navigator.serviceWorker.register('/sw.js', { scope: '/' });
+}
+</script>
 </html>
